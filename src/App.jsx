@@ -1,9 +1,14 @@
 import "./App.css";
+import AddTodo from "./Component/AddTodo";
+import ListTodo from "./Component/ListTodo";
 
 function App() {
-  return <>
-  <h1 className="text-red-400 font-bold text-4xl">hello puja</h1>
-  </>;
+  return (
+    <div className="App">
+      <AddTodo />
+      <ListTodo />
+    </div>
+  );
 }
 
 export default App;

@@ -5,7 +5,7 @@ export const toDoSlider = createSlice({
   initialState: {
     todoList: [
       { id: 1, content: "Hit the gym" },
-      { id: 2, content: "Meet George" },
+      { id: 2, content: "Meet Puja" },
     ],
   },
   reducers: {
